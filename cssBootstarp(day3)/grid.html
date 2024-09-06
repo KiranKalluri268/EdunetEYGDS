@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            .container{
+                display:grid;
+                grid-column: span;
+            }
+            #c1{
+                color:blue; 
+            }
+            #c2{
+                color: aqua;
+            }
+            #c3{
+                color:rgb(77, 185, 44);
+            }
+            .child{
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div id="c1" class="child">
+            Grid-Item1
+        </div>
+        <div id="c2" class="child">
+            Grid-Item2
+        </div>
+        <div id="c3" class="child">
+            Grid-Item3
+        </div>
+        <div id="c1" class="child">
+            Grid-Item1
+        </div>
+        <div id="c2" class="child">
+            Grid-Item2
+        </div>
+        <div id="c3" class="child">
+            Grid-Item3
+        </div>      
+    </div>
+    </body>
+</html>
