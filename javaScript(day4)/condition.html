@@ -4,33 +4,63 @@
             var a=34,b=35,c=31;
             if(a<b)
               {
-                document.writeln("b is Greater");
+                document.writeln("b is Greater<br>");
               }
             else
             {
-                document.writeln("b is Greater");
+                document.writeln("b is Greater<br>");
             }
-            
+
             if(a<b)
               {
                 if(a<c)
               {
-                document.writeln("a is smallest");
+                document.writeln("a is smallest<br>");
               }
               else if(b<c)
               {
-                document.writeln("b is smallest"); 
+                document.writeln("b is smallest<br>"); 
               }
               else{
-                document.writeln("c is smallest");
+                document.writeln("c is smallest<br>");
               }
               }
               else if(b<c){
-                document.writeln("b is smallest");
+                document.writeln("b is smallest<br>");
               }
               else{
-                document.writeln("c is smallest");
+                document.writeln("c is smallest<br>");
               }
+
+            var day = 3;
+            var dayName;
+            switch (day) {
+                case 1:
+                dayName = "Sunday";
+                break;
+                case 2:
+                dayName = "Monday";
+                break;
+                case 3:
+                 dayName = "Tuesday";
+                 break;
+                case 4:
+                dayName = "Wednesday";
+                break;
+                case 5:
+                dayName = "Thursday";
+                break;
+                case 6:
+                dayName = "Friday";
+                break;
+                case 7:
+                dayName = "Saturday";
+                break;
+                default:
+                 dayName = "Invalid day";
+            }
+            document.writeln(dayName);
+
         </script>
     </body>
 </html>
