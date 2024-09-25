@@ -1,12 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
-import * as bootstrap from 'bootstrap'
+import Login from './Login'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Nav />
-    <App />
+    <Login />
   </StrictMode>,
 )
